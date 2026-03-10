@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([YOUR_NOTEBOOK_LINK](https://colab.research.google.com/drive/1cKLfazGWFYYU7Z9sp3IfZBeRCP0QEzUJ?usp=sharing))
+
 Practical 01
 
 Aim:
