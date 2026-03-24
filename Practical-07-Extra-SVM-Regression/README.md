@@ -1,41 +1,49 @@
-# Extra Practical 07 – Support Vector Regression (SVR)
+# Practical 07 – Support Vector Machine (SVM) Classification
 
 ## Aim
-To apply Support Vector Machine for regression on the Student Performance dataset and analyze the impact of different kernels on model performance.
+To apply Support Vector Machine for classification and analyze the impact of different kernels on model accuracy.
 
 ## Objective
-- Understand Support Vector Regression
-- Learn how SVM handles regression problems
-- Evaluate regression performance using metrics
+- Understand SVM classification
+- Learn about hyperplanes and support vectors
+- Apply different kernel functions
+- Evaluate classification performance
 
 ## Theory
 
-Support Vector Regression (SVR) is an extension of SVM for predicting continuous values.
+Support Vector Machine (SVM) is a supervised learning algorithm used for classification.
 
 Key concepts:
-- Uses hyperplane to fit data
-- Minimizes error within margin
-- Uses kernel functions to model complex relationships
+- **Hyperplane** – decision boundary
+- **Support Vectors** – closest points to boundary
+- **Margin** – distance between classes
+
+Types of kernels:
+- Linear Kernel
+- Polynomial Kernel
+- RBF (Radial Basis Function)
+
+SVM aims to maximize the margin between classes.
 
 ## Description
 
 In this practical:
-- Student performance dataset is used
+- Pulsar stars dataset is used
 - Data preprocessing and scaling is applied
 - Dataset is split into training and testing sets
-- SVR models are trained using different kernels
-- Predictions are generated
-- Model performance is evaluated
+- SVM models are trained with different kernels
+- Model performance is evaluated and compared
 
 ## Steps Performed
 
-1. Load dataset
-2. Preprocess data
-3. Apply feature scaling
-4. Split dataset
-5. Train SVR models
-6. Predict outputs
-7. Evaluate model performance
+1. Import libraries
+2. Load dataset
+3. Perform preprocessing
+4. Apply feature scaling
+5. Split dataset
+6. Train SVM with different kernels
+7. Predict results
+8. Evaluate performance
 
 ## Tools Used
 - Python
@@ -44,12 +52,14 @@ In this practical:
 
 ## Output
 
-- Predicted values
-- MAE, MSE, R² Score
+- Accuracy score
+- Confusion matrix
+- Kernel comparison results
 
 ## Conclusion
 
-SVR is effective for regression tasks, especially when relationships are non-linear. Kernel choice significantly affects performance.
+SVM provides strong classification performance, especially in high-dimensional data. Kernel selection plays a crucial role in model accuracy.
 
 ## References
 - https://www.geeksforgeeks.org/support-vector-machine-algorithm/
+- https://www.analyticsvidhya.com/blog/2021/10/support-vector-machines/
