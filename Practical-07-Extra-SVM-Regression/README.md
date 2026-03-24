@@ -1,18 +1,55 @@
-Extra Practical 07
+# Extra Practical 07 – Support Vector Regression (SVR)
 
-Aim:
+## Aim
 To apply Support Vector Machine for regression on the Student Performance dataset and analyze the impact of different kernels on model performance.
 
-Description:
-This extra practical focuses on implementing Support Vector Regression (SVR), a variant of Support Vector Machine used for predicting continuous values. The experiment is performed on a student performance dataset to understand how SVM can be applied to regression problems.
+## Objective
+- Understand Support Vector Regression
+- Learn how SVM handles regression problems
+- Evaluate regression performance using metrics
 
-The notebook includes the following steps:
-• Loading and exploring the student performance dataset
-• Data preprocessing and feature selection
-• Feature scaling to normalize input data
-• Splitting the dataset into training and testing sets
-• Implementing Support Vector Regression using different kernels such as linear, polynomial and RBF
-• Generating predictions on test data
-• Evaluating model performance using regression metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE) and R² score
+## Theory
 
-This practical highlights how kernel functions influence the model’s ability to capture patterns in data and demonstrates the importance of proper preprocessing for regression tasks using SVM.
+Support Vector Regression (SVR) is an extension of SVM for predicting continuous values.
+
+Key concepts:
+- Uses hyperplane to fit data
+- Minimizes error within margin
+- Uses kernel functions to model complex relationships
+
+## Description
+
+In this practical:
+- Student performance dataset is used
+- Data preprocessing and scaling is applied
+- Dataset is split into training and testing sets
+- SVR models are trained using different kernels
+- Predictions are generated
+- Model performance is evaluated
+
+## Steps Performed
+
+1. Load dataset
+2. Preprocess data
+3. Apply feature scaling
+4. Split dataset
+5. Train SVR models
+6. Predict outputs
+7. Evaluate model performance
+
+## Tools Used
+- Python
+- Scikit-learn
+- Pandas, NumPy
+
+## Output
+
+- Predicted values
+- MAE, MSE, R² Score
+
+## Conclusion
+
+SVR is effective for regression tasks, especially when relationships are non-linear. Kernel choice significantly affects performance.
+
+## References
+- https://www.geeksforgeeks.org/support-vector-machine-algorithm/
