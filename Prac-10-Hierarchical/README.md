@@ -29,6 +29,9 @@ This practical provides insight into hierarchical relationships in data and help
 ## Dataset
 Mall_Customers dataset (loaded from GitHub)
 
+## Google Colab Link
+https://colab.research.google.com/drive/1S91MGHtqkAYvBR0XpSXovoMTCaV0Azah?usp=sharing
+
 ## Tools Used
 - Python
 - Google Colab
