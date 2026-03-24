@@ -33,3 +33,6 @@ Mall_Customers dataset (loaded from GitHub)
 - Python
 - Google Colab
 - Scikit-learn
+
+## Google Colab Link
+https://colab.research.google.com/drive/1H_lO2ytkjIcnfK67f5utShMH3iRjxYwr?usp=sharing
